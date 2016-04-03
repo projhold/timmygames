@@ -1,0 +1,61 @@
+<html>
+<head>
+	<link rel="stylesheet" type="text/css" href="slick.css"/>
+
+	<script type="text/javascript" src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
+	<script type="text/javascript" src="http://code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
+	<script src="http://code.jquery.com/ui/1.11.2/jquery-ui.js"></script>
+
+	<script type="text/javascript" src="slick.js"></script>
+
+	<title>Timmy Games</title>
+</head>
+
+<body>
+    <div class="your-class" >
+	<div style=" width: 100%;">
+		<img src="data/1.png" style="margin-left: auto; margin-right: auto; height: 100%; " >
+	</div>
+	<div style=" width: 100%;" >
+		<img src="data/1.png" style="margin-left: auto; margin-right: auto; height: 100%; " >
+	</div>
+
+    </div>
+
+
+    <script type="text/javascript">
+			
+		
+        $(document).ready(function(){
+            $('.your-class').slick({
+									variableWidth: false,
+									slidesToShow: 1,
+									centerMode:true,
+									touchThreshold:30,
+									  autoplay: true,
+								    autoplaySpeed: 1000,
+								    
+								    speed:1000,
+
+
+            });
+        });
+    </script>
+
+
+	
+<script>
+  (function(i,s,o,g,r,a,m){i['GoogleAnalyticsObject']=r;i[r]=i[r]||function(){
+  (i[r].q=i[r].q||[]).push(arguments)},i[r].l=1*new Date();a=s.createElement(o),
+  m=s.getElementsByTagName(o)[0];a.async=1;a.src=g;m.parentNode.insertBefore(a,m)
+  })(window,document,'script','http://www.google-analytics.com/analytics.js','ga');
+
+  ga('create', 'UA-75792040-1', 'auto');
+  ga('send', 'pageview');
+
+</script>
+
+
+
+</body>
+</html>
